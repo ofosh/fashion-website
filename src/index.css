@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #000300;
+}
+.hero {
+  background-image: url("../src/assets/bg-2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.cards {
+  background-image: url("../src/assets/banner-fashion-shoe.png");
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+}
